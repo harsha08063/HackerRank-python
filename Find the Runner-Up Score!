@@ -1,0 +1,7 @@
+n=int(input())
+l1=list(map(int,input().split()))
+a=max(l1)
+while a in l1:
+    l1.remove(a)
+b=max(l1)
+print(b)
