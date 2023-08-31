@@ -1,0 +1,11 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT\
+n=int(input())
+s=[]
+for i in range(n):
+    m=input()
+    s.append(m)
+l=[]
+for i in s:
+    if i not in l:
+        l.append(i)
+print(len(l))
